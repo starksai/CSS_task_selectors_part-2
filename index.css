@@ -1,0 +1,29 @@
+ul{
+    background-color: hsl(195, 68%, 75%);
+}
+
+ul>li{
+    margin-bottom: 10px;
+    color: white;
+    padding: 5px;
+}
+
+ul [data-available="true"]{
+    background-color: green;
+}
+
+ul [data-available="false"]{
+    background-color: red;
+}
+
+ul [data-price="high"]{
+    font-weight: bolder;
+}
+
+[data-category="Electronics"]{
+    list-style: upper-alpha;
+}
+
+[data-category="Appliances"],[data-category="Clothing"]{
+    list-style:decimal;
+}
